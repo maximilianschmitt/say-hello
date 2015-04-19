@@ -914,5 +914,6 @@
       "from": "is-iojs@*",
       "resolved": "https://registry.npmjs.org/is-iojs/-/is-iojs-1.1.0.tgz"
     }
-  }
+  },
+  "version": "0.0.2"
 }
