@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const iojs = require('is-iojs');
+const engine = iojs ? 'io.js' : 'node.js';
+
+console.log(`Hello ${engine}`);
