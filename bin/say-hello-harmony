@@ -4,7 +4,7 @@
 var iojs = require('is-iojs');
 
 if (!iojs) {
-  require('babel/register')({ ignore: false });
+  require('babel/register')({ ignore: /say-hello\/node_modules/ });
 }
 
 require('./say-hello');
