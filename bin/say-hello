@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+'use strict';
 
 const iojs = require('is-iojs');
 const engine = iojs ? 'io.js' : 'node.js';
