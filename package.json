@@ -1,6 +1,6 @@
 {
   "name": "say-hello",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "bin": "bin/say-hello-harmony",
   "dependencies": {
     "babel": "^5.1.10",
