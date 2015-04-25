@@ -1,6 +1,6 @@
 {
   "name": "say-hello",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "dependencies": {
     "is-iojs": {
       "version": "1.1.0",

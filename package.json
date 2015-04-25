@@ -1,6 +1,6 @@
 {
   "name": "say-hello",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "bin": "bin/say-hello",
   "scripts": {
     "build": "mkdir -p es5/bin && babel src/bin/say-hello --out-file es5/bin/say-hello",
