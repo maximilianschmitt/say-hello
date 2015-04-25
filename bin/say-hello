@@ -1,7 +1,4 @@
 #!/usr/bin/env node
 'use strict';
 
-const iojs = require('is-iojs');
-const engine = iojs ? 'io.js' : 'node.js';
-
-console.log(`Hello ${engine}`);
+require(require('is-iojs') ? '../src/bin/say-hello' : '../es5/bin/say-hello');
